@@ -11,7 +11,7 @@ using System.Threading.Tasks;
  * 
  * Description: This program demonstrate GitHub and version control best practice. We also explore Unit Testing
  * 
- * Version: 0.4 - Extracted OutputStringToConsole from the GetUserName method
+ * Version: 0.5 - Added Lesson1UnitTest
  * 
  */
 
@@ -24,7 +24,7 @@ namespace COMP_123_S2016_Lesson1B
      * @constructor Main 
      */ 
 
-    class Program
+    public class Program
     {
         /**
          * Main Method for class Program 
@@ -67,7 +67,7 @@ namespace COMP_123_S2016_Lesson1B
          * @return {string} outputString 
          */
 
-        private static string OutputStringToConsole(string outputString, bool hasNewLine)
+        public static string OutputStringToConsole(string outputString, bool hasNewLine)
         {
             if(hasNewLine)
             {
